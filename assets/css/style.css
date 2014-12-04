@@ -1,0 +1,19 @@
+body {
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 100px 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
+
+#samples {
+  margin: 50px auto;
+  width: 100px;
+}
