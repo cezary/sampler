@@ -4,16 +4,18 @@ body {
   padding: 100px 0;
 }
 
-h1 {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-ol, ul {
+ul {
   list-style: none;
   padding: 0;
 }
 
-#samples {
-  margin: 50px auto;
-  width: 100px;
+.samples {
+  margin: 50px 0;
 }

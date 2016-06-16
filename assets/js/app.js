@@ -44,7 +44,7 @@ function playSound(id) {
 window.onload = function() {
   addEventListener('keydown', keyHandler);
 
-  var samplesEl = document.getElementById('samples');
+  var samplesEl = document.querySelector('.samples');
   Object.keys(audioMap).forEach(function(key) {
     var sampleEl = document.createElement('li');
     sampleEl.textContent = key + " = " + audioMap[key];
